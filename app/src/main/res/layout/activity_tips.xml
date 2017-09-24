@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bd.nazimshawon.donordesign.tips"
+    android:background="@drawable/homeblank"
+
+
+    android:scrollbars = "vertical"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrolltext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:textColor="#ff4081"
+        android:textSize="25dp"
+        android:layout_width="295dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="49dp"
+        android:text="Before Your Donation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="344dp"
+        android:layout_height="301dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        android:text="1. Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins.
+        \n\n2. Get a good night's sleep.
+        \n\n3. Drink an extra 16 oz. of water or nonalcoholic fluids before the donation.
+        \n\n4. Eat a healthy meal before your donation. Avoid fatty foods, such as hamburgers, fries or ice cream before donating. (Fatty foods can affect the tests we do on your blood. If there is too much fat in your blood, your donation cannot be tested for infectious diseases and the blood will not be used for transfusion.)
+        \n\n5. If you are a platelet donor, remember that your system must be free of aspirin for two days prior to donation."
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="344dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="11dp"
+        android:text="1. Wear clothing with sleeves that can be raised above the elbow.
+\n\n2. Let the person taking your blood know if you have a preferred arm and show them any good veins that have been used successfully in the past to draw blood.
+\n\n3. Relax, listen to music, talk to other donors or read during the donation process.
+\n\n4. Take the time to enjoy a snack and a drink in the refreshments area immediately after donating."
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:textStyle="bold"
+        android:textColor="#ff4081"
+        android:textSize="25dp"
+        android:layout_width="289dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="37dp"
+        android:text="During Your Donation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:textStyle="bold"
+        android:textColor="#ff4081"
+        android:textSize="25dp"
+        android:layout_width="324dp"
+        android:layout_height="35dp"
+        android:text="After Your Donation"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="353dp"
+        android:layout_height="412dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="19dp"
+
+        android:text="1. Drink an extra four (8 ounce) glasses of liquids and avoid alcohol over the next 24 hours.
+\n\n2. Keep the strip bandage on for the next several hours.
+\n\n3. To avoid a skin rash, clean the area around the strip bandage with soap and water.
+\n\n4. Do not do any heavy lifting or vigorous exercise for the rest of the day.
+\n\n5. If the needle site starts to bleed, apply pressure to it and raise your arm straight up for about 5-10 minutes or until bleeding stops.
+\n\n6. If you experience dizziness or lightheadedness after donation, stop what you are doing and sit down or lie down until you feel better. Avoid performing any activity where fainting may lead to injury for at least 24 hours."
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="0.5" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
