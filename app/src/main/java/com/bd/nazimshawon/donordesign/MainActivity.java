@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     public void search(View v) {
         startActivity(new Intent(MainActivity.this, search.class));
     }
+
+
+
+    
     public void ambulance(View v) {
         startActivity(new Intent(MainActivity.this, ambulance.class));
     }
